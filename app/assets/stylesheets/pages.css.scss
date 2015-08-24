@@ -1,0 +1,106 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+font-weight: 300;
+}
+
+.header {
+}
+
+.header .container {
+  padding: 0 200px 0 280px;
+	width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header ul {
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.header li {
+display: inline-block;
+font-size: 24px;
+color: #000;
+font-size: 18px;
+font-weight: 500;
+line-height: 100px;
+margin: 0 10px 0 0;
+}
+
+.header h1 {
+display: inline-block;
+font-size: 24px;
+color: #000;
+font-size: 18px;
+font-weight: 500;
+line-height: 100px;
+margin: 0 10px 0 0;
+float: right;
+}
+
+
+.jumbotron {
+background: url(http://images.fineartamerica.com/images-medium-large-5/5-salt-lake-city-skyline-utah-images.jpg) center center;
+background-size: cover;
+min-height: 600px;
+width: 100%;
+}
+
+h2 {
+font-size: 48px;
+line-height: 56px;
+text-align: right;
+font-weight: 500;
+}
+
+a.btn {
+background-color: rgba(0,0,0,0.9);
+border-radius: 0;
+color: #fff;
+font-size: 18px;
+font-weight: 100;
+height: 60px;
+line-height: 60px;
+margin: 40px 0;
+padding: 0;
+transition: background-color .5s;
+width: 200px;
+float:right;
+}
+
+a.btn:hover {
+background-color: #4D70B8;
+color: #fff;
+transition: background-color .5s;
+}
+
+.footer .social_media{
+float: right;
+}
+
+.footer li{
+list-style-type: none;
+}
+
+.social_media li a{
+display: block;
+height: 24px;
+width: 24px;
+}
+
+.footer p {
+float: right
+}
+
+.github {
+background-image: url(/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
+background-position: center center;
+}
