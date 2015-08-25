@@ -1,0 +1,2 @@
+class PortfoController < ApplicationController
+end
