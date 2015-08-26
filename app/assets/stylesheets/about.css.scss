@@ -1,0 +1,25 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+font-family: 'Roboto', sans-serif;
+}
+
+
+.jumbotron_2 {
+background: url(https://db.tt/b6Bnr8iw) center center;
+background-position: 0% 10%;
+min-height: 600px;
+width: 100%;
+margin-bottom: 30px;
+}
+
+.main p {
+font-weight: 300;
+font-size: 22px;
+color: white;
+padding: 15px;
+background: rgba(0,0,0,.5);
+margin-top: 30px;
+}
